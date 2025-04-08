@@ -3,7 +3,11 @@
 
 ---
 
-He awoke to the sound of silence—except, not silence. It was the soft hum of electricity, the kind you don’t hear with ears but with the back of your teeth. His eyes opened, but nothing made sense. No walls. No ceiling. Only blackness… and a single line of white:
+He awoke to the sound of silence—except, not silence.
+
+It was the soft hum of electricity, the kind you don’t hear with ears but with the back of your teeth. 
+
+His eyes opened, but nothing made sense. No walls. No ceiling. Only blackness… and a single line of white:
 
 ```
 >>>
@@ -13,7 +17,9 @@ It blinked.
 Once.  
 Again.  
 
-A prompt. A memory surfaced. _Python_. Not a snake. A language. He didn't know who he was, but his fingers moved like they remembered.
+A prompt. A memory surfaced. _Python_. Not a snake. A language.
+
+He didn't know who he was, but his fingers moved like they remembered.
 
 He typed:
 
