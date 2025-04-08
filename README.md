@@ -1,4 +1,4 @@
-# Adventure In Python
+# Adventure In 🐍Python
 
 This is a fascinating story about a novice programmer inside a computer
 
