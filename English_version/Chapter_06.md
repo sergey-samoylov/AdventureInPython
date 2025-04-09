@@ -1,4 +1,4 @@
-## 📖 Chapter 6: Decisions and Branching  
+## 📖 Chapter 6: Decisions and Branching 🎋
 *from Adventure in Python by Sergey Samoylov*
 
 ---
