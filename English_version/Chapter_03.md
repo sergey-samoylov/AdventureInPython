@@ -136,5 +136,5 @@ request_access()
 
 ---
 
-Ready for [**Chapter 4: Virus and Encapsulation**](Chapter_04)?  
+Ready for [**Chapter 4: Virus and Encapsulation**](Chapter_04.md)?  
 We’ll craft your first **class**—a digital entity with memory.
