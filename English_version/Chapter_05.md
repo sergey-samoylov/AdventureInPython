@@ -1,4 +1,4 @@
-## 📖 Chapter 5: Memory and the File System
+## 📖 Chapter 5: Memory and the File System 📂
 *from Adventure in Python by Sergey Samoylov*
 
 ---
