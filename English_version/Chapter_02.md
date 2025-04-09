@@ -138,6 +138,6 @@ Access level: Hacker.
 - Functions: to shape.
 
 You have a voice *and* a brain.  
-Next, you'll [meet your first enemy: a bug](Chapter_03).
+Next, you'll [meet your first enemy: a bug](Chapter_03.md).
 
 ---
