@@ -1,140 +1,123 @@
-## 🧱 Chapter 20: Modules and Files 📂  
+## 🐍 Chapter 22: The Truth Behind False 🪞  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+The hallway flickered with strange signs.
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
+The Terminal whispered:  
+> “Not everything that exists is True.  
+> Not everything empty is gone.”
 
----
+The hero stopped.
 
-### 📚 Why Break Code Into Files?
+> “What does that even mean?”
 
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
+> “You must learn the *truthiness* of things.”
 
 ---
 
-### 📦 What Is a Module?
+### ✅ Truthy and Falsy
 
-A module is simply a `.py` file  
-that contains Python code.
+In Python, some values **evaluate as True**,  
+others as **False**, even without being `True` or `False`.
 
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
-
----
-
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
+Let’s explore that:
 
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
+if "hello":
+    print("This string is True")
 ```
 
-Now in a new file:
+Now try:
 
 ```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
-
----
-
-### 🧭 The Power of Imports
-
-There are different ways to import:
-
-```python
-from tools import greet
-
-greet("Hero")
-```
-
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
-
----
-
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
-
-```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+if "":
+    print("This won't be printed")
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 🔎 The Falsy Club
 
-Create a folder called `mymodule`.
+These values are **considered False**:
 
-Inside, create:
+- `None`
+- `False`
+- `0`, `0.0`, `0j`
+- `""` (empty string)
+- `[]` (empty list)
+- `{}` (empty dict)
+- `set()`, `tuple()`, `range(0)`
 
-- `text_utils.py`
-- `math_utils.py`
+Everything else is **True**.
 
-In `text_utils.py`, write a function  
-that counts words in a string.
+---
 
-In `math_utils.py`, write a function  
-that multiplies two numbers.
+### 🔍 Why It Matters
 
-Test them from a separate file called `main.py`.
+This lets us write code like:
+
+```python
+user_input: str = input("Enter something: ")
+
+if not user_input:
+    print("You entered nothing!")
+```
+
+Instead of:
+
+```python
+if user_input == "":
+    print("You entered nothing!")
+```
+
+Same logic, cleaner code.
+
+---
+
+### 🧪 Bonus: `bool()` Function
+
+Want to test truthiness?
+
+```python
+print(bool(0))       # False
+print(bool("text"))  # True
+```
+
+---
+
+### 🧠 Challenge: Filter Truth
+
+Create a list of mixed values:  
+some `None`, some empty, some valid.
+
+Then use a list comprehension  
+to filter only the **truthy** ones:
+
+```python
+mixed_values: list = ["text", "", None, 0, 42, [], [1]]
+
+# Your filtered list should be: ['text', 42, [1]]
+```
 
 ---
 
 ### 🧠 Reflection
 
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
+> “So... truth is not always a value?”  
+> asked the hero.
 
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+> “Correct,” said the Terminal.  
+> “It’s what a value means  
+> when tested under pressure.”
+
+> “Like in life,” whispered the shadows.
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+To bool or not to bool?
+
+True / False is in question.
+
+[Chapter 23](Chapter_23.md) awaits!
