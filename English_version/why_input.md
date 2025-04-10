@@ -23,7 +23,7 @@ Earlier chapters:
 > "`input()` is just a keyboard."
 
 Chapter 13:  
-> "`input()` is *a voice*. It's choice. It's identity. It's agency."
+> "`input()` is *a voice*. It's a choice. It's an identity. It's an agency."
 
 We're now giving it proper attention — as a **core mechanic** in interactive programming.
 
