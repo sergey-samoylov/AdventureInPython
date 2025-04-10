@@ -8,7 +8,7 @@ This is a fascinating story about a novice programmer inside a computer
 
 > "Sort of a student text-book. This one allows the reader to follow up the hero and learn at the same time."
 
-![logo](img/logo_adventure_in_python.png)
+![logo](img/logo_adventure_in_python_02.png)
 
 About spirit, philosophy, and educational uniqueness of this story:
 
