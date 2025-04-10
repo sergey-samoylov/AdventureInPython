@@ -10,7 +10,7 @@ This is a fascinating story about a novice programmer inside a computer
 
 ![logo](img/logo_adventure_in_python.png)
 
-Absolutely — it’s the perfect moment to create a **promo text** for this book. Here's a crafted piece that captures its spirit, philosophy, and educational uniqueness:
+About spirit, philosophy, and educational uniqueness of this story:
 
 ---
 
