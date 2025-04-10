@@ -29,7 +29,7 @@ They tell the interpreter:
 They are part of the program’s **control flow** —  
 not just accidents.
 
-What's the catch? Why [try/except again](Why_try_except.md)?
+What's the catch? Why [try/except again](why_try_except.md)?
 
 ---
 
