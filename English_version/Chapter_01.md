@@ -1,4 +1,4 @@
-## **📖 Chapter 1: Hello, World**  
+## **📖 Chapter 1: Hello, World** 🗺️
 *from Adventure in Python by Sergey Samoylov*
 
 ---
