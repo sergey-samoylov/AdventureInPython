@@ -1,140 +1,112 @@
-## 🧱 Chapter 20: Modules and Files 📂  
+## ⏳ Chapter 21: Time and Timing 🕒  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+The digital cave was silent.  
+Even the code had stopped whispering.
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
+> "Why is nothing happening?"  
+> the hero asked aloud.
 
----
-
-### 📚 Why Break Code Into Files?
-
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
+> “Because you haven’t learned  
+> to **control time** yet,”  
+> came the voice of the Terminal.
 
 ---
 
-### 📦 What Is a Module?
+### ⏱ Meet the `time` Module
 
-A module is simply a `.py` file  
-that contains Python code.
+Python has a built-in module  
+that lets you pause, track, or measure time.
 
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
-
----
-
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
+Let’s import it:
 
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
-```
-
-Now in a new file:
-
-```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
-
----
-
-### 🧭 The Power of Imports
-
-There are different ways to import:
-
-```python
-from tools import greet
-
-greet("Hero")
-```
-
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
-
----
-
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
-
-```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+import time
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 😴 Sleep to Pause
 
-Create a folder called `mymodule`.
+Want your program to wait before continuing?
 
-Inside, create:
+```python
+import time
 
-- `text_utils.py`
-- `math_utils.py`
+print("Loading...")
+time.sleep(2)
+print("Ready!")
+```
 
-In `text_utils.py`, write a function  
-that counts words in a string.
+💡 `sleep()` takes seconds. You can use decimals too: `1.5`
 
-In `math_utils.py`, write a function  
-that multiplies two numbers.
+---
 
-Test them from a separate file called `main.py`.
+### 🧮 Measuring Execution Time
+
+You can measure how long something takes:
+
+```python
+import time
+
+start: float = time.time()
+
+for number in range(1000000):
+    _ = number * number
+
+end: float = time.time()
+
+print(f"Done in {end - start:.2f} seconds")
+```
+
+---
+
+### 📆 Current Time and Date
+
+To get human-readable time:
+
+```python
+current_time: str = time.ctime()
+print(f"Now: {current_time}")
+```
+
+This prints something like:  
+`Now: Mon Apr 7 17:45:12 2025`
+
+---
+
+### 🧠 Challenge: Create a Countdown
+
+Write a script that asks the user  
+to enter a number of seconds  
+and counts down to zero like this:
+
+```
+Enter seconds to count down: 5
+5...
+4...
+3...
+2...
+1...
+Time's up!
+```
+
+Use a `while` loop and `time.sleep()`.
 
 ---
 
 ### 🧠 Reflection
 
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
+> “Time is not just something you endure,”  
+> thought the hero,  
+> “It’s a tool. A rhythm. A strategy.”
 
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+> “Well said,” replied the Machine,  
+> “Master timing,  
+> and your code becomes alive.”
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+Time to read next [Chapter 22](Chapter_22.md)⏲️
