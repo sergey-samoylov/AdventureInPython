@@ -20,3 +20,4 @@ Basically:
 Earlier, the hero *used a fire extinguisher*.  
 Now he’s learning what fire is — and when to use which extinguisher.
 
+Now, [go back](Chapter_19.md) and enjoy the safety of this construction.
