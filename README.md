@@ -14,7 +14,7 @@ Absolutely — it’s the perfect moment to create a **promo text** for this boo
 
 ---
 
-## 🌌 *Adventure in Python*  
+## 🌌 [*Adventure in Python*](English_version/Chapter_01.md)
 ### The First Textbook You Don’t Just Read — You **Live**
 
 ---
