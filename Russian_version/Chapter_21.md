@@ -1,140 +1,117 @@
-## 🧱 Chapter 20: Modules and Files 📂  
+## ⏳ Глава 21: Время и тайминг 🕒  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+Цифровая пещера молчала.  
+Даже код перестал шептать.
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
+> "Почему ничего не происходит?" —  
+> спросил герой вслух.
 
----
-
-### 📚 Why Break Code Into Files?
-
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
+> "Потому что ты ещё не научился  
+> **управлять временем**, —  
+> ответил голос Терминала.
 
 ---
 
-### 📦 What Is a Module?
+### ⏱ Модуль `time`
 
-A module is simply a `.py` file  
-that contains Python code.
+Python имеет встроенный модуль,  
+который позволяет делать паузы,  
+отслеживать или измерять время.
 
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
-
----
-
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
+Импортируйте его:
 
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
-```
-
-Now in a new file:
-
-```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
-
----
-
-### 🧭 The Power of Imports
-
-There are different ways to import:
-
-```python
-from tools import greet
-
-greet("Hero")
-```
-
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
-
----
-
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
-
-```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+import time
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 😴 Пауза с помощью `sleep()`
 
-Create a folder called `mymodule`.
+Хотите, чтобы программа подождала  
+несколько секунд?
 
-Inside, create:
+```python
+import time
 
-- `text_utils.py`
-- `math_utils.py`
+print("Загрузка...")
+time.sleep(2)
+print("Готово!")
+```
 
-In `text_utils.py`, write a function  
-that counts words in a string.
-
-In `math_utils.py`, write a function  
-that multiplies two numbers.
-
-Test them from a separate file called `main.py`.
-
----
-
-### 🧠 Reflection
-
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
-
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+💡 `sleep()` принимает секунды.  
+Можно использовать десятичные значения: `1.5`
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+### 🧮 Измеряем время выполнения
+
+Можно измерить, сколько заняла операция:
+
+```python
+import time
+
+start: float = time.time()
+
+# осторожно: на слабых машинах этот цикл будет работать целую вечность)
+for number in range(1_000_000):
+    _ = number * number
+
+end: float = time.time()
+
+print(f"Готово за {end - start:.2f} секунд")
+```
+
+---
+
+### 📆 Текущие дата и время
+
+Получим текущее человеко-читаемое время:
+
+```python
+current_time: str = time.ctime()
+print(f"Сейчас: {current_time}")
+```
+
+Например:  
+`Сейчас: Mon Apr 7 17:45:12 2025`
+
+---
+
+### 🧠 Задание: Обратный отсчёт
+
+Напишите скрипт, который запрашивает  
+у пользователя количество секунд  
+и отсчитывает до нуля:
+
+```
+Введите секунды: 5
+5...
+4...
+3...
+2...
+1...
+Время вышло!
+```
+
+Используйте цикл `while` и `time.sleep()`.
+
+---
+
+### 🧠 Размышление
+
+> "Время — это не то,  
+> что просто проходит, —  
+> подумал герой, —  
+> это инструмент. Ритм. Тактика."
+
+> "Точно, — сказала Машина, —  
+> управляй временем,  
+> и твой код оживёт."
+
+---
+
+Время двигаться [дальше](Chapter_22.md)!
