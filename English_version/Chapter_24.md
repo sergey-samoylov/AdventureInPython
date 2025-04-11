@@ -221,4 +221,4 @@ The journey continues...
 
 ---
 
-[Chapter 25](Chapter_25), which is a quarter of 100, waits for you!
+[Chapter 25](Chapter_25), which is an instance of first 100 Chapters, waits for you!
