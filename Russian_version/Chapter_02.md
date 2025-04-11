@@ -1,4 +1,4 @@
-## 📖 Глава 2: Дом на Командной Строке
+## 📖 Глава 2: Дом на Командной Строке 🏡
 
 *from Adventure in Python by Sergey Samoylov*
 
