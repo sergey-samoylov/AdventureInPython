@@ -105,4 +105,4 @@ Another shard of truth, unlocked.
 
 ---
 
-[Chapter 26](Chapter_26.md).
+Ready for boxes and unpacking in [Chapter 26](Chapter_26.md)?
