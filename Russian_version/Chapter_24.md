@@ -1,140 +1,111 @@
-## 🧱 Chapter 20: Modules and Files 📂  
+## 🧪 Глава 24: Проверка реальности с `isinstance()` 🧬  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+Терминал прошептал нечто загадочное:
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
+> "Иногда нужно быть уверенным,  
+> с чем ты действительно имеешь дело."
 
----
+Спутник наклонил голову:
 
-### 📚 Why Break Code Into Files?
+> "Ты имеешь в виду... типы?"
 
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
-
----
-
-### 📦 What Is a Module?
-
-A module is simply a `.py` file  
-that contains Python code.
-
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
-
----
-
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
+На экране мигнуло слово:
 
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
-```
-
-Now in a new file:
-
-```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
-
----
-
-### 🧭 The Power of Imports
-
-There are different ways to import:
-
-```python
-from tools import greet
-
-greet("Hero")
-```
-
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
-
----
-
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
-
-```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+isinstance()
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 🕵️ Что такое `isinstance()`?
 
-Create a folder called `mymodule`.
+`isinstance()` проверяет, является ли значение объектом указанного типа.
 
-Inside, create:
+Проще говоря, это вопрос к Python:
 
-- `text_utils.py`
-- `math_utils.py`
-
-In `text_utils.py`, write a function  
-that counts words in a string.
-
-In `math_utils.py`, write a function  
-that multiplies two numbers.
-
-Test them from a separate file called `main.py`.
+> "Это действительно строка? Список? Число?"
 
 ---
 
-### 🧠 Reflection
+### 🔍 Пример использования
 
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
+```python
+value: str = "привет"
 
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+if isinstance(value, str):
+    print("Да, это строка.")
+```
+
+✅ Возвращает `True`, если объект относится к этому типу.
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+### 🧱 Зачем это нужно?
+
+Когда программа работает с разными типами данных,  
+важно уметь **реагировать по-разному**,  
+в зависимости от типа.
+
+---
+
+### 📦 Можно проверять несколько типов сразу:
+
+```python
+data: list[int] = [1, 2, 3]
+
+if isinstance(data, (list, tuple)):
+    print("Обнаружена последовательность.")
+```
+
+Передай кортеж типов, чтобы проверить сразу несколько вариантов.
+
+---
+
+### ⚠️ Но не переусердствуй
+
+Иногда лучше просто попробовать и обработать ошибку  
+(о `try` поговорим позже!).
+
+Тем не менее, `isinstance()` отлично подходит для:
+
+- Проверки ввода
+- Написания гибкого кода
+- Безопасной обработки данных
+
+---
+
+### 🤖 Озарение героя
+
+> "Я больше не вижу просто числа и строки.  
+> Я вижу *их суть*... и их возможности."
+
+---
+
+### 🎯 Задание: типо-чувствительная программа
+
+Напиши функцию, которая:
+
+1. Принимает любой аргумент  
+2. Выводит:
+   - Если строка → её длину
+   - Если число → его квадрат
+   - Если список или кортеж → перевёрнутую версию
+   - Иначе: `"Неизвестный тип"`
+
+Используй `isinstance()` для проверки.
+
+---
+
+Терминал зажужжал — с довольством.
+
+> "Понимание типа —  
+> первый шаг к управлению поведением."
+
+Путешествие продолжается...
+
+---
+
+Вперед к [двадцать пятой главе](Chapter_25.md)
