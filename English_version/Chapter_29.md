@@ -1,4 +1,4 @@
-### 🧠 Chapter 29: Map and Transformations 🧬  
+### 🌐 Chapter 29: Map and Transformations 🗺️  
 *from **Adventure in Python** by Sergey Samoylov*
 
 ---
@@ -64,7 +64,7 @@ print(doubled)
 ### ⚡ Using `lambda` with `map`:
 
 ```python
-words: list[str] = ["hello", "world"]
+words: list[str] = ["Adventure", "Python"]
 lengths: list[int] = list(map(lambda w: len(w), words))
 
 print(lengths)
@@ -72,7 +72,7 @@ print(lengths)
 
 ✅ Output:
 ```python
-[5, 5]
+[9, 6]
 ```
 
 ---
