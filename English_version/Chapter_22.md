@@ -110,7 +110,7 @@ mixed_values: list = ["text", "", None, 0, 42, [], [1]]
 
 > “Correct,” said the Terminal.  
 > “It’s what a value means  
-> when tested under pressure.”
+> when [tested under pressure](value_under_pressure.md).”
 
 > “Like in life,” whispered the shadows.
 
