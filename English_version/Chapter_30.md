@@ -1,4 +1,4 @@
-### ✂️ Chapter 30: Filter What Matters 🪪  
+### ✂️ Chapter 30: Filter What Matters 💎  
 *from *Adventure in Python* by Sergey Samoylov*
 
 ---
