@@ -92,8 +92,8 @@ print(bool("text"))  # True
 Create a list of mixed values:  
 some `None`, some empty, some valid.
 
-Then use a list comprehension  
-to filter only the **truthy** ones:
+Then write a loop to filter and collect
+only the truthy values into a new list.
 
 ```python
 mixed_values: list = ["text", "", None, 0, 42, [], [1]]
