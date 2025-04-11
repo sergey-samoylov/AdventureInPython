@@ -1,140 +1,108 @@
-## 🧱 Chapter 20: Modules and Files 📂  
-*from Adventure in Python by Sergey Samoylov*
+## 🧊 Chapter 25: Immutable Truth – Tuples 🔐  
+*from *Adventure in Python* by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+> “It looks like a list,”  
+> the Hero muttered, poking the new data object.  
+> “But it feels... different.”
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
-
----
-
-### 📚 Why Break Code Into Files?
-
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
-
----
-
-### 📦 What Is a Module?
-
-A module is simply a `.py` file  
-that contains Python code.
-
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
-
----
-
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
-
+The Terminal pulsed one word:  
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
-```
-
-Now in a new file:
-
-```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
-
----
-
-### 🧭 The Power of Imports
-
-There are different ways to import:
-
-```python
-from tools import greet
-
-greet("Hero")
-```
-
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
-
----
-
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
-
-```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+tuple
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 🧱 What’s a Tuple?
 
-Create a folder called `mymodule`.
+A **tuple** is like a list, but **immutable**.
 
-Inside, create:
-
-- `text_utils.py`
-- `math_utils.py`
-
-In `text_utils.py`, write a function  
-that counts words in a string.
-
-In `math_utils.py`, write a function  
-that multiplies two numbers.
-
-Test them from a separate file called `main.py`.
+That means: **you can’t change it** after creation.
 
 ---
 
-### 🧠 Reflection
+### 📦 Tuple Syntax
 
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
+```python
+colors: tuple[str, str, str] = ("red", "green", "blue")
+```
 
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+✅ Uses parentheses  
+✅ Can hold values of any types  
+✅ Items are ordered  
+✅ Can contain duplicates
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+### 🚫 No Modification
+
+```python
+colors[0] = "yellow"  # ❌ Error!
+```
+
+Python will raise:
+
+```text
+TypeError: 'tuple' object does not support item assignment
+```
+
+That’s the whole point.
+
+---
+
+### 🛡 Why Use Tuples?
+
+- Tuples are **faster** than lists  
+- They **guarantee stability**  
+- Perfect for **constants** or unchanging data  
+- They can be **used as dictionary keys**
+
+---
+
+### 🔍 One-Element Tuples
+
+This is tricky:
+
+```python
+lonely: tuple[str] = ("single",)  # ← Comma is key!
+```
+
+Without the comma, it’s just a string in parentheses.
+
+---
+
+### 🧙‍♂️ Wisdom in Immutability
+
+The Hero leaned back.
+
+> “Maybe the value of something…  
+> comes from not being able to change it.”
+
+The Companion nodded slowly.  
+Not everything needs to be flexible.
+
+---
+
+### 🎯 Challenge: Tuple Translator
+
+Create a tuple of command keywords.  
+Ask the user to enter a command.
+
+If it matches something in the tuple, print "OK".  
+Otherwise, print "Unknown command".
+
+Don't use a list.  
+Make the tuple immutable on purpose.
+
+---
+
+The Terminal flickered in approval.
+
+> “When data is final, logic becomes clear.”
+
+Another shard of truth, unlocked.
+
+---
+
+[Chapter 26](Chapter_26.md).
