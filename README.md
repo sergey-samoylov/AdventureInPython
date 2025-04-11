@@ -31,6 +31,8 @@ You follow the path of a young programmer who finds himself inside a mysterious 
 
 And the only tool he has is: **Python**.
 
+Choose your language [🇬🇧](https://github.com/sergey-samoylov/AdventureInPython/tree/main/English_version) or [🇷🇺](https://github.com/sergey-samoylov/AdventureInPython/tree/main/Russian_version) and dive into!
+
 ---
 
 ### 📚 What Makes This Book Different?
