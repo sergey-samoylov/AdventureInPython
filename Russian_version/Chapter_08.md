@@ -1,4 +1,4 @@
-## 📖 Глава 8: Память и объекты 🧠
+## 📖 Глава 8: Спутник - цифрофой друг 🧠
 *from Adventure in Python by Sergey Samoylov*
 
 ---
