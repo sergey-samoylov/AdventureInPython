@@ -1,140 +1,115 @@
-## 🧱 Chapter 20: Modules and Files 📂  
+## 🧰 Chapter 23: The Toolbox Expands 🔧  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
 
-The Machine buzzed.  
-A humming sound filled the digital air.
+The Companion was humming, lights dancing in patterns.  
+The Terminal projected something new:
 
-> "You have learned to write code,"  
-> said the voice,  
-> "but now, you must learn to **organize** it."
+> "Your tools grow.  
+> You now wield the power of built-in functions."
 
----
+The hero blinked. A row of strange symbols lit up:
 
-### 📚 Why Break Code Into Files?
-
-Our hero had been living in the terminal,  
-writing small bits of code, running them, tweaking them.
-
-But real programs grow.  
-They become **too big** to handle in one place.
-
-> “You don’t build a castle from one stone.”
-
-You split your project into **modules**.
+`len()`, `sum()`, `max()`, `min()`, `sorted()`, `reversed()`
 
 ---
 
-### 📦 What Is a Module?
+### 🛠 What Are Built-in Functions?
 
-A module is simply a `.py` file  
-that contains Python code.
+Python comes with a powerful **standard library**  
+and many built-in functions ready to use  
+— no import needed.
 
-You can **import** it into another file  
-and reuse its functions, classes, or variables.
+They work on strings, lists, numbers, and more.
 
 ---
 
-### ✍️ Writing Your First Module
-
-Create a file named `tools.py`:
+### 📏 `len()`: Know the Size
 
 ```python
-def greet(name: str) -> None:
-    """
-    Prints a friendly greeting.
-    """
-    print(f"Hello, {name}!")
+name: str = "Python"
+print(len(name))  # 6
 ```
 
-Now in a new file:
-
-```python
-import tools
-
-tools.greet("Companion")
-```
-
-Simple.  
-Elegant.  
-Modular.
+Works with strings, lists, tuples, etc.
 
 ---
 
-### 🧭 The Power of Imports
-
-There are different ways to import:
+### ➕ `sum()`: Add It Up
 
 ```python
-from tools import greet
-
-greet("Hero")
+numbers: list[int] = [1, 2, 3]
+print(sum(numbers))  # 6
 ```
 
-But be careful:
-
-- Avoid `from x import *`
-- Keep names clear
-- Think in terms of long-term structure
+Adds all elements of a list.
 
 ---
 
-### 📁 Folders Become Packages
-
-As code grows, you’ll need folders.
-
-Create a folder: `utilities/`  
-Inside it, place `math_utils.py`.
-
-Make sure to include an empty file:  
-`__init__.py`
-
-Now `utilities` is a **package**.
-
-You can import with:
+### 🥇 `max()` and `min()`: Find the Extremes
 
 ```python
-from utilities import math_utils
-```
-
-Or:
-
-```python
-from utilities.math_utils import multiply
+scores: list[int] = [7, 4, 9, 2]
+print(max(scores))  # 9
+print(min(scores))  # 2
 ```
 
 ---
 
-### 🧠 Challenge: Create Your Toolkit
+### 📚 `sorted()`: Return a Sorted Copy
 
-Create a folder called `mymodule`.
+```python
+words: list[str] = ["banana", "apple", "cherry"]
+print(sorted(words))  # ['apple', 'banana', 'cherry']
+```
 
-Inside, create:
-
-- `text_utils.py`
-- `math_utils.py`
-
-In `text_utils.py`, write a function  
-that counts words in a string.
-
-In `math_utils.py`, write a function  
-that multiplies two numbers.
-
-Test them from a separate file called `main.py`.
+The original list stays unchanged.
 
 ---
 
-### 🧠 Reflection
+### 🔁 `reversed()`: Go Backwards
 
-> “At first, I thought code was just commands,”  
-> whispered the hero,  
-> “but now I see — it's **architecture**.”
-
-> “Indeed,” the Machine replied,  
-> “And well-structured code is the foundation  
-> of powerful creation.”
+```python
+letters: str = "abc"
+for letter in reversed(letters):
+    print(letter)
+```
 
 ---
 
-Should we check [Chapter 21](Chapter_21.md)
+The Companion explained:
+
+> "These functions don’t belong to any module.  
+> They are *built in* —  
+> like your instincts."
+
+---
+
+### 🧠 Challenge: A Handy Toolbox
+
+Write a program that:
+
+1. Asks the user to enter 5 numbers  
+2. Stores them in a list  
+3. Prints:
+   - The sum
+   - The smallest and largest numbers
+   - The list in reverse
+
+Use only built-in functions.
+
+---
+
+The hero smiled.
+
+> “Every new tool makes me faster.  
+> And wiser.”
+
+The Terminal agreed.
+
+> “And closer to freedom.”
+
+---
+
+Jump to [Chapter 24](Chapter_24.md) now!
