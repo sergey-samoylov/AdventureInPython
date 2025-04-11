@@ -1,4 +1,4 @@
-## 🗂️ Глава 12: Словари и Смысл 🔍  
+## 🗂️ Глава 12: Ключи от Мира 🔍  
 *from Adventure in Python by Sergey Samoylov*
 
 ---
