@@ -79,5 +79,11 @@
 25. **Chapter 25 – Tuples**  
     *Immutable collections, tuple creation and usage*
 
+26. sdfs
+
+27. **Chapter 27: *args and *kwargs — The Language of Flexibility**
+    *Bring all that you've got. Let's unpack!*
+29. 
+
 ---
 
