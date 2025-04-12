@@ -1,5 +1,5 @@
 ### 🧬 Глава 42: Общая ДНК — Псевдонимы в Python  
-*from **Adventures in Python** by Sergey Samoylov*
+*from **Adventure in Python** by Sergey Samoylov*
 
 ---
 
