@@ -30,10 +30,9 @@ It’s a beautiful example of how Python treats functions as first-class citizen
 ### ⚙️ Basic Structure
 
 ```python
-from typing import Callable
 
-def my_decorator(func: Callable) -> Callable:
-    def wrapper() -> None:
+def my_decorator(func):
+    def wrapper():
         print("Before the function runs.")
         func()
         print("After the function runs.")
