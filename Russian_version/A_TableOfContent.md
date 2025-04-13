@@ -1,5 +1,5 @@
 ### 📚 *Adventure in Python*
-*by Sergey Samoylov*
+*by Sergey Samoylov*  
 **Содержание (Главы 1–50)**  
 
 ---
