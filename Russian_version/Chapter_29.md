@@ -1,4 +1,4 @@
-### 🌐 Глава 29: Map и Преобразования 🗺️  
+### 🌐 Глава 29: Карты и Преобразования 🗺️  
 *from **Adventure in Python** by Sergey Samoylov*
 
 ---
