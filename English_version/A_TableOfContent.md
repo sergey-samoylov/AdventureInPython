@@ -97,50 +97,50 @@
 31. [**Chapter 31**](Chapter_31.md)
     **
 
-32. [**Chapter 32**](Chapter_32.md)
-    **
+32. [**Chapter 32 - Unpacking the Unknown**](Chapter_32.md)
+    *From a collection items to variables*
 
-33. [**Chapter 33**](Chapter_33.md)
-    **
+33. [**Chapter 33 - *args and Flexible Functions**](Chapter_33.md)
+    *Bring them on!*
 
-34. [**Chapter 34**](Chapter_34.md)
-    **
+34. [**Chapter 34 - \*\*kwargs and Named Chaos**](Chapter_34.md)
+    *Many named arguments*
 
-35. [**Chapter 35**](Chapter_35.md)
-    **
+35. [**Chapter 35 - Writing Our Own Modules**](Chapter_35.md)
+    *Building tools*
 
-36. [**Chapter 36**](Chapter_36.md)
-    **
+36. [**Chapter 36 - The Power of __init__.py**](Chapter_36.md)
+    *Building libraries*
 
-37. [**Chapter 37**](Chapter_37.md)
-    **
+37. [**Chapter 37 - Arguments and Parameters**](Chapter_37.md)
+    *What's the difference*
 
-38. [**Chapter 38**](Chapter_38.md)
-    **
+38. [**Chapter 38 - Modules and Imports**](Chapter_38.md)
+    *Expanding the map*
 
-39. [**Chapter 39**](Chapter_39.md)
-    **
+39. [**Chapter 39 - Mutability — The Power to Change**](Chapter_39.md)
+    *Data comes in two kinds...*
 
-40. [**Chapter 40**](Chapter_40.md)
-    **
+40. [**Chapter 40 - Understanding is and ==**](Chapter_40.md)
+    *Equal doesn't always mean the same*
 
-41. [**Chapter 41**](Chapter_41.md)
-    **
+41. [**Chapter 41 - Mutability Strikes Back**](Chapter_41.md)
+    *Tricks of mutation*
 
-42. [**Chapter 42**](Chapter_42.md)
-    **
+42. [**Chapter 42 - Aliases in Python**](Chapter_42.md)
+    *Shared DNA*
 
-43. [**Chapter 43**](Chapter_43.md)
-    **
+43. [**Chapter 43 - Privacy and Conventions**](Chapter_43.md)
+    *Guarding secrets*
 
-44. [**Chapter 44**](Chapter_44.md)
-    **
+44. [**Chapter 44 - Writing Simple Tests**](Chapter_44.md)
+    *Test - Look before you leap*
 
-45. [**Chapter 45**](Chapter_45.md)
-    **
+45. [**Chapter 45 - Closures**](Chapter_45.md)
+    *The Function Inside the Function*
 
-46. [**Chapter 46**](Chapter_46.md)
-    **
+46. [**Chapter 46 - Decorators**](Chapter_46.md)
+    *Wrapping, whatever they say, changes candy*
 
 47. [**Chapter 47 - Closures, Evolved**](Chapter_47.md)
     *Getting deeper into nested functions*
