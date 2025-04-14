@@ -142,17 +142,17 @@
 46. [**Chapter 46**](Chapter_46.md)
     **
 
-47. [**Chapter 47**](Chapter_47.md)
-    **
+47. [**Chapter 47 - Closures, Evolved**](Chapter_47.md)
+    *Getting deeper into nested functions*
 
-48. [**Chapter 48**](Chapter_48.md)
-    **
+48. [**Chapter 48 - The Elegant Patterns**](Chapter_48.md)
+    *Decorators revisited*
 
-49. [**Chapter 49**](Chapter_49.md)
-    **
+49. [**Chapter 49 - Composition over Inheritance**](Chapter_49.md)
+    *The tail wags inside a dog*
 
-50. [**Chapter 50**](Chapter_50.md)
-    **
+50. [**Chapter 50 - R e c u r s i o n**](Chapter_50.md)
+    *Decomposition to the bare minimum*
 
 ---
 
