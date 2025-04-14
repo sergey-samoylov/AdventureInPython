@@ -71,7 +71,7 @@ but as tools you’ve used with your own hands.
 ### 🎮 A Story You Shape with Code
 
 This is more than storytelling.  
-This is **interactive storytelling**.
+This is **interactive and immersive**.
 
 - You build classes that become characters  
 - You shape behavior with control flow  
