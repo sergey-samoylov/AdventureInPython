@@ -1,26 +1,26 @@
 ### 📚 *Adventure in Python* by Sergey Samoylov  
 
-**Chapter Overview (Ch. 1–25)**
+**Chapter Overview (Ch. 1–50)**
 
 ---
 
 1. [**Chapter 1 – Awakening in the Terminal**](Chapter_01.md)  
    *Introduction, basic `print()`, first interaction with Python*
 
-2. [**Chapter 2 – Echoes of Self**](Chapter_02.md)  
-   *Variables, data types: `int`, `str`, `float`*
+2. [**Chapter 2 – A Shell of a Home**](Chapter_02.md)  
+   *Making Decisions — Input & Logic*
 
-3. [**Chapter 3 – The Pulse of Logic**](Chapter_03.md)  
-   *Boolean values, `True`, `False`, simple comparisons*
+3. [**Chapter 3 – The Debugger Beast**](Chapter_03.md)  
+   *First mistakes and how to deal with them*
 
-4. [**Chapter 4 – Paths of Decision**](Chapter_04.md)  
-   *If/else logic, conditional branching*
+4. [**Chapter 4 – The Virus and Encapsulation**](Chapter_04.md)  
+   *A glimpse to the future - unexpectedly - Classes, State & Encapsulation*
 
-5. [**Chapter 5 – The Power of Functions**](Chapter_05.md)  
-   *Defining and calling functions, arguments and return values*
+5. [**Chapter 5 – Memory and the File System**](Chapter_05.md)  
+   *Writing memories to a file*
 
-6. [**Chapter 6 – The Code of Identity**](Chapter_06.md)  
-   *Classes, attributes, object creation*
+6. [**Chapter 6 – Decisions and Branching**](Chapter_06.md)  
+   *If, elif, else and why*
 
 7. [**Chapter 7 – Choices Within**](Chapter_07.md)  
    *match/case statements, pattern matching*
@@ -43,38 +43,38 @@
 13. [**Chapter 13 – Dialogue with the Machine**](Chapter_13.md)  
     *Handling user input with validation, looping input requests*
 
-14. [**Chapter 14 – Many Roads, One Loop**](Chapter_14.md)  
-    *Loop control: `break`, `continue`, `else` in loops*
+14. [**Chapter 14 – The Gift of Return**](Chapter_14.md)  
+    *Enjoy return values*
 
-15. [**Chapter 15 – Guarding the Gates**](Chapter_15.md)  
-    *Basic error handling with try/except*
+15. [**Chapter 15 – While There Is Time**](Chapter_15.md)  
+    *Every cycle must have an exit*
 
-16. [**Chapter 16 – A Safe Request**](Chapter_16.md)  
-    *`dict.get()` usage for safe dictionary access*
+16. [**Chapter 16 – Taming the Data**](Chapter_16.md)  
+    *Access and control*
 
-17. [**Chapter 17 – The Power of Truth**](Chapter_17.md)  
-    *Truthy and falsy values, conditions, logical context*
+17. [**Chapter 17 – Testing the System**](Chapter_17.md)  
+    *Fight broken assumptions with testing*
 
-18. [**Chapter 18 – Type and Form**](Chapter_18.md)  
-    *Understanding `type()`, data type introspection*
+18. [**Files and Memory**](Chapter_18.md)  
+    *Files are how programs talk*
 
 19. [**Chapter 19 – Understanding Exceptions**](Chapter_19.md)  
     *Digging deeper into exception types and meanings*
 
-20. [**Chapter 20 – The Path of Introspection**](Chapter_20.md)  
-    *Using `dir()`, `help()`, and documentation discovery*
+20. [**Chapter 20 – Modules and Files**](Chapter_20.md)  
+    *Why Break Code Into Files?*
 
-21. [**Chapter 21 – Memory and Identity**](Chapter_21.md)  
-    *`id()`, mutability, object identity and comparison*
+21. [**Chapter 21 – Time and Timing**](Chapter_21.md)  
+    *Pause, track, or measure time*
 
-22. [**Chapter 22 – Reflecting with `type`**](Chapter_22.md)  
-    *The dual nature of `type()`: values and classes*
+22. [**Chapter 22 – The Truth behind False**](Chapter_22.md)  
+    *learn the truthiness of things*
 
 23. [**Chapter 23 – A Test of Worth**](Chapter_23.md)  
     *Built-in functions: `len()`, `sum()`, `max()`, `min()`*
 
-24. [**Chapter 24 – None Shall Pass**](Chapter_24.md)  
-    *The concept of `None`, absence of value*
+24. [**Chapter 24 – Testing Reality with isinstance()**](Chapter_24.md)  
+    *Undeniable truth*
 
 25. [**Chapter 25 – Tuples**](Chapter_25.md)  
     *Immutable collections, tuple creation and usage*
@@ -85,17 +85,17 @@
 27. [**Chapter 27: *args and *kwargs — The Language of Flexibility**](Chapter_27.md)  
     *Bring all that you've got. Let's unpack!*
 
-28. [**Chapter 28**](Chapter_28.md)
-    **
+28. [**Chapter 28 - The Lambda**](Chapter_28.md)
+    *Anonymous Power*
 
-29. [**Chapter 29**](Chapter_29.md)
-    **
+29. [**Chapter 29 - Map and Transformations**](Chapter_29.md)
+    *Sometimes, we want to apply a function to every element in a sequence*
 
-30. [**Chapter 30**](Chapter_30.md)
-    **
+30. [**Chapter 30 - Filter What Matters**](Chapter_30.md)
+    *Sometimes, we want to apply a funtion to a few elements in a sequence*
 
-31. [**Chapter 31**](Chapter_31.md)
-    **
+31. [**Chapter 31 - Zip the World**](Chapter_31.md)
+    *Zipper - first step to combinations*
 
 32. [**Chapter 32 - Unpacking the Unknown**](Chapter_32.md)
     *From a collection items to variables*
