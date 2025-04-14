@@ -1,4 +1,4 @@
-🧰 **Chapter 46: The Power of Decorators**
+🧰 **Chapter 46: The Power of Decorators**  
 *from **Adventure in Python** by Sergey Samoylov*
 
 ---
