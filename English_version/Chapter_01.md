@@ -3,6 +3,10 @@
 
 ---
 
+[Style Guide](style_guide.md)
+
+---
+
 He awoke to the sound of silence—except, not silence.
 
 It was the soft hum of electricity, the kind you don’t hear with ears but with the back of your teeth. 
