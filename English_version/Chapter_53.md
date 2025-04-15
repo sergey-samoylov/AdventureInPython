@@ -8,7 +8,7 @@ A glowing sigil pulsed with power:
 
 ```python
 class Hero:
-    """A brave hero with a name and a level."""
+    """A brave hero with a name and a level in the future :-)."""
     pass
 ```
 
