@@ -80,7 +80,9 @@ print("But I will learn.")
 
 ### 🔹 Variables — Naming the Nameless
 
-A variable stores data. Think of it as a digital memory crystal.
+A variable "stores" data. Think of it as a digital memory crystal.
+(In fact variables are just links to actual data in a computer.
+But this secret will be explained later in the book.)
 
 ```python
 name: str = "Hero"
