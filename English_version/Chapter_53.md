@@ -61,7 +61,7 @@ knight.speak()
 ### 🧩 Let’s break it down
 
 - `class Hero`: defines a new blueprint called `Hero`.
-- `__init__`: this special method runs **when you create** an object.
+- `__init__`: this special method runs **when you initialize(create)** an object.
 - `self`: refers to the *specific instance* being created.
 - `self.name`, `self.level`: these are **attributes** that store data.
 - `speak`: a method, a function **inside** the class.
