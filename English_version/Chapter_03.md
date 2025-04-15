@@ -137,4 +137,5 @@ request_access()
 ---
 
 Ready for [**Chapter 4: Virus and Encapsulation**](Chapter_04.md)?  
-We’ll craft your first **class**—a digital entity with memory.
+We’ll craft your first **class**—a digital entity with memory.  
+[**Skip Class creation for now**](Chapter_05.md)
