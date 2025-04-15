@@ -5,6 +5,10 @@ but on the **why** behind them,
 the vibe, and the clarity  
 they bring to young Python adventurers.  
 
+1. Type Hinting 🧩
+1. Docstrings 📜
+1. F-Strings 🔥
+
 ---
 
 ## 🎨 **Adventure in Python — Style Guide**
