@@ -4,6 +4,10 @@
 
 ---
 
+[Style Guide](style_guide.md)
+
+---
+
 1. [**Chapter 1 – Awakening in the Terminal**](Chapter_01.md)  
    *Introduction, basic `print()`, first interaction with Python*
 
