@@ -1,5 +1,4 @@
-**Style Guide** for the artistic and educational spirit of  
-_Adventure in Python_  
+**Style Guide** for the artistic and educational spirit of _Adventure in Python_  
 — focusing not just on rules,  
 but on the **why** behind them,  
 the vibe, and the clarity  
